@@ -21,7 +21,7 @@ class Custom_GenAI:
         try:
             contents=f"""
             You are a helpful assistant converting natural language to SQL.
-            The database is MySQL.  
+            The database is MySQL, don't use PostgreSQL or sqlite
 
             Convert this natural language query into SQL: {question}
             """
